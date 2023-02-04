@@ -93,8 +93,7 @@ body{
 }
 
 .conteudo__resultados{
-    width: 25%;
-    padding: 5rem;
+    padding: 0 5rem;
 }
 
 .titulo__resultados{
@@ -107,6 +106,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     color: var(--preto-titulos);
+    padding: 1rem 0;
 }
 
 .texto__resultados{
