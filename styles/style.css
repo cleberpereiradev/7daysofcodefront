@@ -57,3 +57,59 @@ body{
     border-radius: 8px;
     padding: 0.8rem 1rem;
 }
+
+.container__sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+    gap: 1.5rem;
+}
+
+.sobre__subtitulo{
+    color: var(--vinho-secundario);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sobre__titulo{
+    font-size: 48px;
+    color: var(--preto-titulos);
+    font-weight: 600;
+}
+.sobre__texto{
+    color: var(--cinza-fonte);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 42%;
+}
+
+.container__resultados{
+    display: flex;
+    grid-template-columns: auto;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.conteudo__resultados{
+    width: 25%;
+    padding: 5rem;
+}
+
+.titulo__resultados{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho-secundario);
+}
+
+.subtitulo__resultados{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-titulos);
+}
+
+.texto__resultados{
+    font-size: 16;
+    font-weight: 400;
+}
